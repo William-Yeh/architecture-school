@@ -136,17 +136,15 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
 </p>
 <h2>課程簡介</h2>
 <ul>
-	<li>DevOps 簡介</li>
+  <li>課前作業檢討</li>
 	<li>自動化組態管理觀念</li>
-	<li>實習環境介紹</li>
-	<li>Ansible 基本工具</li>
-	<li>Ansible playbook (劇本檔) 實作</li>
-	<li>虛擬機及雲端環境運用</li>
-	<li>重構：模組化、一般化</li>
-	<li>Ansible Galaxy</li>
-	<li>組態測試</li>
+	<li>Ansible 快速上手</li>
+	<li>案例演練</li>
+	<li>重構</li>
+	<li>Ansible Galaxy 挖寶方針</li>
 	<li>部署管理</li>
-	<li>綜合運用</li>
+  <li>虛擬機及雲端環境運用</li>
+  <li>Q&amp;A</li>
 </ul>
 <h2>課程時數</h2>
 <p>
@@ -160,9 +158,9 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
 
 <h2>時間、地點</h2>
 <p>
-10/25 (日) &nbsp;&nbsp;&nbsp; 9:30～16:30
+2016 年一月某日
 <br/>
-<a href="https://www.google.com/maps/place/105%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E5%BE%A9%E8%88%88%E5%8C%97%E8%B7%AF99%E8%99%9F/@25.052848,121.5443515,17z/data=!3m1!4b1!4m2!3m1!1s0x3442abe7665bbd4f:0x33f7f41ed43152ba" target='_blank'>台北市松山區復興北路 99 號 14 樓</a>（恆逸教育訓練中心）
+地點待定。
 </p>
 
 <h2>如何報名？</h2>
@@ -178,7 +176,9 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
     </div>
   
 
-  
+    <!-- =============================================== -->
+
+
     <div class="course-block bio odd-stripe" id="block-276703">
       <div class='container'>
   <div class='row'>
@@ -217,10 +217,63 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
 
     </div>
   
+    <!-- =============================================== -->
+
+
+    <div class="course-block bio even-stripe" id="block-276703">
+      <div class='container'>
+  <div class='row'>
+    <div class='col-xs-1 visible-xs'></div>
+    <div class='col-lg-8 col-lg-offset-2 col-xs-10 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1'>
+      <h2>
+        課前作業
+      </h2>
+      <br>
+      <div class='row'>
+        <div class='col-lg-3 col-md-4 col-sm-4 text-center'>
+            <big>基本題</big>
+        </div>
+        <div class='col-lg-9 col-md-8 col-sm-8'>
+          <p>
+          從一台最陽春的 Linux 開始，反覆演練〈<a href="https://tw.wordpress.org/install/">Wordpress 引以為傲的五分鐘快速安裝</a>〉。
+          </p>
+          <ul>
+            <li>Linux 可以是 CentOS、Debian、RHEL、Ubuntu...</li>
+            <li>Linux 可以是裸機，虛擬機，或雲端主機。</li>
+            <li>本課程的重心是設定 Linux 組態，所以，請不要使用 XAMPP 之類的 Windows 救急方案。</li>
+            <li>如果上述資料不足以讓你成功安裝起來，請自行搜尋更多安裝教學，並紀錄你所能精練出的<b>最佳步驟</b>，整理在 Quip 課程群組中。</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class='row'>
+        <div class='col-lg-3 col-md-4 col-sm-4 text-center'>
+            <big>挑戰題</big>
+        </div>
+        <div class='col-lg-9 col-md-8 col-sm-8'>
+          <p>
+          將上述步驟，盡可能寫成自動化安裝程式。
+          </p>
+          <ul>
+            <li>自動化的比例愈高愈好。</li>
+            <li>可以用任何你喜歡的技術實作，如：bash、Perl、Python、Ruby...</li>
+            <li>紀錄你所能精練出的<b>最佳步驟</b>，整理在 Quip 課程群組中。</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+
+    </div>
+  
+    <!-- =============================================== -->
+
 
 
   
-    <div class="course-block faq even-stripe" id="block-276706">
+    <div class="course-block faq odd-stripe" id="block-276706">
       <div class='container'>
   <div class='row'>
     <div class='col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2'>
@@ -231,11 +284,39 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
       <br>
 
 
+
+      <div class='faq-question'>
+        ► 我是 developer，沒有 operator 背景，能上這門課嗎？
+      </div>
+      <div class='faq-answer'>
+        這門課不會涉及太多 operator 背景知識。大體而言，只要你能夠把課前作業的基本題做完，就能來上課了。剩下的背景知識，大可日後再按照範例自行邊做邊補齊。
+      </div>
+
+
+
+      <div class='faq-question'>
+        ► 我是 operator，只會寫一些 bash/Perl scripts，能上這門課嗎？
+      </div>
+      <div class='faq-answer'>
+        這門課不會涉及太多程式語言技能。大體而言，只要你能夠把課前作業的基本題做完，就能來上課了。剩下的背景知識，大可日後再按照範例自行邊做邊補齊。
+      </div>
+
+
+
+      <div class='faq-question'>
+        ► 課前作業好像有點難⋯⋯做不完，能上這門課嗎？
+      </div>
+      <div class='faq-answer'>
+        為了確保你一走進課堂，馬上就能進入實戰狀況，至少請將課前作業的基本題做完。
+      </div>
+
+
+
       <div class='faq-question'>
         ► Ansible 和 Chef/Puppet/Salt 有什麼不同？
       </div>
       <div class='faq-answer'>
-        大體而言，可以從三方面來探討：程式語言、Pull vs Push、ecosystem。
+        大體而言，可以從三方面來探討：程式語言、Pull vs Push、ecosystem⋯⋯（想知道進一步內容？來上課吧！）
       </div>
 
 
@@ -254,18 +335,26 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
         ► Ansible 能支援 Windows 嗎？
       </div>
       <div class='faq-answer'>
-        Ansible 1.7 之後，managed host 可以是 Windows 了；但 control machine 仍然需要 Unix 系統。詳情請見<a href="http://docs.ansible.com/ansible/intro_windows.html" title="Windows Support | Ansible">官方文件</a>。
+        Ansible 1.7 之後，<b>managed host</b> 可以是 Windows 了；但 <b>control machine</b> 仍然需要 Unix 系統。詳情請見<a href="http://docs.ansible.com/ansible/intro_windows.html" title="Windows Support | Ansible">官方文件</a>。
       </div>
 
 
       <div class='faq-question'>
-        ► 這次課程，會教 Windows 嗎？
+        ► 這次課程，會教如何用 Ansible 去設定 Windows managed host 嗎？
       </div>
       <div class='faq-answer'>
-        不會。
+        不會，但會提供一些參考資料。
       </div>
 
-      
+ 
+      <div class='faq-question'>
+        ► 這次課程，會教如何在 Windows 上操作 Ansible 嗎？
+      </div>
+      <div class='faq-answer'>
+        會，透過我寫的兩項工具： <a href="https://github.com/William-Yeh/ansible-vagrantbox">Vagrant Box for Ansible Control Machine</a>  及 <a href="https://github.com/William-Yeh/vag2inv">vag2inv</a>  。
+      </div>
+
+     
       <div class='faq-question'>
         ► 關於這次課程，我還有些地方不太清楚⋯⋯
       </div>
@@ -290,8 +379,8 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
       </div>
       <div class='faq-answer'>
         <p>
-	請利用畫面右下角【<font color="red"><b>課程留言</b></font>】功能，留下你的 email。過一陣子，你會收到 Quip 寄給你的邀請函。
-</p>
+        報名完成後，一個工作天之內，你會收到 Quip 寄給你的邀請函。
+        </p>
       </div>
       
       <div class='faq-question'>
@@ -312,14 +401,14 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
   
 
   
-    <div class="course-block checkout odd-stripe" id="block-276709">
+    <div class="course-block checkout even-stripe" id="block-276709">
       <div class="checkout-cta">
   
     <h2>
       <!-- This is a final call-to-action that will say "Join 2,000 students and get started now!"
            or simply "Get started now!" if you have fewer than 100 students in the course -->
       
-      錯過 10/25 這梯次，就要等下次了！
+      錯過 2016/01 這梯次，就要等下次了！
       
     </h2>
   
@@ -336,7 +425,7 @@ window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.crea
                       <i class='fa fa-shopping-cart'></i>&nbsp;&nbsp;
                       我要報名！
                     </button>
-                  <br>
+                  <br><br><br><br>
                 </center>
               </div>
 
